@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">应用</string>
+    <string name="Name">用户名</string>
+    <string name="Password">密码</string>
+    <string name="Login">登陆</string>
+</resources>

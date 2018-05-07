@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+  <EditText
+      android:id="@+id/et_inputpath"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Music/a.mp3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@+id/et_inputpath"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tv_play"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@android:drawable/ic_media_play"
+            android:gravity="center"
+            android:text="播放" />
+
+        <TextView
+            android:id="@+id/tv_pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:text="暂停"
+            android:drawableTop="@android:drawable/ic_media_pause" />
+    </LinearLayout>
+
+</RelativeLayout>

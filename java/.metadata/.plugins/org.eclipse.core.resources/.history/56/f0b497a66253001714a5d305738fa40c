@@ -1,0 +1,5 @@
+package Cmodule;
+
+public enum canvas {
+
+}

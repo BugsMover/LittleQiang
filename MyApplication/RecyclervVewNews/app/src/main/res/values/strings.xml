@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclervVewNews</string>
+    <string name="serverurl">http://10.23.34.118:80/NewsInfo.json</string>
+</resources>
